@@ -2,7 +2,7 @@ name: Send emails daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: '09 6 * * *'
+    - cron: '10 7 * * *'
 
 jobs:
   calculate-and-send:
